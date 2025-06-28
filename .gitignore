@@ -1,0 +1,33 @@
+secrets.txt
+
+# FRONTEND
+# Logs
+paystack-frontend/logs
+paystack-frontend/*.log
+paystack-frontend/npm-debug.log*
+paystack-frontend/yarn-debug.log*
+paystack-frontend/yarn-error.log*
+paystack-frontend/pnpm-debug.log*
+paystack-frontend/lerna-debug.log*
+
+paystack-frontend/node_modules
+paystack-frontend/dist
+paystack-frontend/dist-ssr
+paystack-frontend/*.local
+
+# Editor directories and files
+paystack-frontend/.vscode/*
+paystack-frontend/!.vscode/extensions.json
+paystack-frontend/.idea
+paystack-frontend/.DS_Store
+paystack-frontend/*.suo
+paystack-frontend/*.ntvs*
+paystack-frontend/*.njsproj
+paystack-frontend/*.sln
+paystack-frontend/*.sw?
+
+paystack-frontend/.env
+paystack-frontend/READEME.md
+
+# BACKEND
+paystack-backend/node_modules
