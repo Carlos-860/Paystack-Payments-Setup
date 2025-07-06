@@ -4,8 +4,6 @@ import { useState } from "react";
 function ListCustomer() {
     const [data, setData] = useState(null);
 
-    console.log(import.meta.env)
-
     const listCustomer = async () => {
         const response = await fetch("https://api.paystack.co/customer", {
             method: "GET",
