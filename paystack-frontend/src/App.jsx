@@ -5,6 +5,7 @@ import Subscriptions from "./pages/Subscriptions.jsx";
 import Plans from "./pages/Plans.jsx";
 import TransactionSplits from "./pages/TransactionSplits.jsx";
 import Subaccounts from "./pages/Subaccounts.jsx";
+import Miscalleneous from "./pages/Miscalleneous.jsx";
 
 export const App = () => (
     <Router>
@@ -42,6 +43,15 @@ export const App = () => (
                         </li>
                     </ul>
                 </li>
+
+                <li>
+                    MISSCELLANEOUS
+                    <ul>
+                        <li>
+                            <Link to="/miscellaneous">Banks</Link>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
         <Routes>
@@ -52,6 +62,8 @@ export const App = () => (
 
             <Route path="/plans" element={<Plans />} />
             <Route path="/subscriptions" element={<Subscriptions />} />
+            <Route path="/miscellaneous" element={<Miscalleneous />} />
+
         </Routes>
     </Router>
 );
